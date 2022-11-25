@@ -1,0 +1,13 @@
+int main:{
+int a[9]:{1,, 4, 3, 12, 5, 7, 9, 21, 19};
+int s, i;
+i:0;
+while i<9 {
+if a[i]%3 == 0 {
+s:s+1;
+}
+i:i+1;
+}
+show: " the sum of elements divisible by 3 pf the array is: " : s ;
+return 0 ;
+}
